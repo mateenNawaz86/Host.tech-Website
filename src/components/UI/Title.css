@@ -1,0 +1,8 @@
+.title {
+  color: #479756;
+  margin-top: 1rem;
+  letter-spacing: 1px;
+  user-select: none;
+  text-transform: capitalize;
+  font-weight: 500;
+}

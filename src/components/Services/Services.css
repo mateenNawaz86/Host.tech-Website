@@ -1,0 +1,53 @@
+.services__container {
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 130vh;
+  margin: 0 auto;
+  position: relative;
+}
+
+.upper__color__div {
+  height: 85px;
+  width: 35%;
+  background-color: #479756;
+  position: relative;
+  left: 20%;
+}
+
+.side__color__div {
+  background-color: #8ae4a8;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  left: 5%;
+  top: 8%;
+}
+
+.services__img {
+  position: relative;
+  left: 15%;
+}
+
+.services__img img {
+  width: 60%;
+}
+
+.lower__color__div {
+  background-color: #479756;
+  width: 35%;
+  height: 23%;
+  bottom: 0%;
+  position: absolute;
+  left: 20%;
+}
+
+.card__div {
+  position: absolute;
+  width: 30rem;
+  left: 50%;
+  bottom: 3%;
+  overflow-y: hidden;
+  z-index: 99;
+}

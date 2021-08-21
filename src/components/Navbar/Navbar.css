@@ -1,0 +1,56 @@
+.container {
+  background-color: #fff;
+  width: 100%;
+  height: 100vh;
+}
+
+.navbar__container {
+  width: 80%;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 120px;
+  cursor: pointer;
+}
+
+.links {
+  list-style: none;
+  margin: 0;
+}
+
+.links li {
+  display: inline-block;
+  padding-left: 14px;
+}
+
+.links li:first-child {
+  padding-left: 0;
+}
+
+.links li i {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.fa-facebook {
+  color: #4267b2;
+}
+
+.fa-twitter-square {
+  color: #1da1f2;
+}
+
+.fa-instagram-square {
+  color: #fb3958;
+}
+
+@media (max-width: 768px) {
+  .fab {
+    display: none;
+  }
+}

@@ -1,0 +1,72 @@
+.green-card__container {
+  width: 22rem;
+  height: auto;
+  margin: 1rem 0 2rem 0;
+}
+
+.inner-green__card {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 1.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 25rem;
+}
+
+.up__text {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+}
+
+.plan_status {
+  font-size: 1.4rem;
+  color: #fff;
+  user-select: none;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+.inner-green__card h1 {
+  font-size: 3rem;
+  color: #baefcc;
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+  user-select: none;
+}
+
+.status__text {
+  margin: 2rem 0 4.5rem 0;
+  color: #fff;
+  user-select: none;
+  letter-spacing: 1px;
+}
+
+
+/* Second Card start */
+
+
+h1 span {
+  font-size:1.5rem;
+  margin-left: -10px;
+  color: #479756;
+  text-transform: lowercase;
+}
+
+.plan2_status {
+  font-size: 1.4rem;
+  color: #479756;
+  user-select: none;
+  text-transform: capitalize;
+  margin-bottom: 1rem; 
+}
+
+.second-status__text {
+  margin: 2rem 0 4.5rem 0;
+  color: #000;
+  user-select: none;
+  letter-spacing: 1px;
+}

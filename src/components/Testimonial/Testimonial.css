@@ -1,0 +1,101 @@
+.testimonial__container {
+  width: 100%;
+  background-color: #fff;
+  height: auto;
+}
+
+.inner__testi-container {
+  width: 100%;
+  max-width: 87%;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+.upper__area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.upper__area p {
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  color: #111;
+  user-select: none;
+  margin-bottom: 13px;
+}
+
+.upper__area h1 {
+  font-size: 4rem;
+  color: #479756;
+  margin-bottom: 1.3rem;
+  user-select: none;
+}
+
+.up__para {
+  max-width: 75%;
+  user-select: none;
+  line-height: 1.7;
+}
+
+.testimonial__cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+}
+
+.inner__testi__cards {
+  width: 17rem;
+  margin: 0 auto;
+  padding: 1.5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inner__testi__cards img {
+  width: 150px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.card__test {
+  max-width: 80%;
+  position: relative;
+  text-align: center;
+}
+
+.fa-quote-left {
+  position: absolute;
+  left: 1%;
+}
+
+.card__test p {
+  line-height: 1.8;
+  font-size: 1.2rem;
+  color: #4d4d4f;
+  user-select: none;
+}
+
+.fa-quote-right {
+  position: absolute;
+  right: 11%;
+  bottom: 1%;
+}
+
+.userName {
+  color: #479756;
+  margin-bottom: 12px;
+  user-select: none;
+  margin-top: 1rem;
+}
+
+.userStatus {
+  color: #4d4d4f;
+  font-size: 1.2rem;
+  user-select: none;
+}

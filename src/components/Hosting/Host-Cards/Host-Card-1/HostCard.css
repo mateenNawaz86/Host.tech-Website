@@ -1,0 +1,39 @@
+.card__container {
+  width: 20rem;
+  max-width: 95%;
+  margin: 0 auto;
+  height: auto;
+}
+
+.inner__card {
+  padding: 1.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fa-lock,
+.fa-file-code,
+.fa-globe,
+.fa-database {
+  background-color: #d9f6e3;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  font-size: 2.5rem;
+  color: #90c6a2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner__card p {
+  text-align: center;
+  margin: 1rem 0;
+  color: #555c74;
+  user-select: none;
+  font-style: italic;
+  line-height: 1.5;
+  font-size: 1.1rem;
+}

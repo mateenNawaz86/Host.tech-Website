@@ -1,0 +1,43 @@
+.hostCat__container {
+  width: 90%;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 0;
+}
+
+.host__text {
+  flex-basis: 40%;
+}
+
+.host__text h1 {
+  font-size: 4rem;
+  color: #479756;
+  line-height: 1.2;
+  margin-bottom: 2.5rem;
+  user-select: none;
+}
+
+.host__text p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-bottom: 2.5rem;
+  user-select: none;
+}
+
+.host__Cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 54%;
+}
+
+.first__col {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+

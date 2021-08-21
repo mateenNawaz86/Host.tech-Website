@@ -1,0 +1,12 @@
+.amazing__card__container {
+  max-width: 90%;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.amazing__card__container p {
+  line-height: 1.7;
+  font-size: 1.1rem;
+  margin: 1rem 0;
+  user-select: none;
+}

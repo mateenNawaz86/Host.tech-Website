@@ -1,0 +1,16 @@
+.roundGrenBtn {
+  padding: 10px 2rem;
+  border-radius: 20px;
+  background-color: #479756;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  margin-top: 1rem;
+}
+
+.roundGrenBtn:hover {
+  background-color: #3f8a4d;
+}

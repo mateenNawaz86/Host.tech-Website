@@ -1,0 +1,21 @@
+.whiteBtn {
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #111;
+  background-color: #e5e5e5;
+  border: none;
+  outline: none;
+  border-radius: 7px;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.whiteBtn:hover {
+  background-color: #d3d3d3;
+}
+
+.fa-youtube {
+  font-size: 1rem;
+  margin-right: 6px;
+}

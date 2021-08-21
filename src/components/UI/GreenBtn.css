@@ -1,0 +1,23 @@
+.greenBtn {
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #479756;
+  border: none;
+  outline: none;
+  border-radius: 7px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+  margin-right: 1.5rem;
+}
+
+.greenBtn:hover {
+  background-color: #111111;
+}
+
+.fa-upload {
+  font-size: 1rem;
+  margin-right: 6px;
+}

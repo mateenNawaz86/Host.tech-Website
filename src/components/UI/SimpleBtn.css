@@ -1,0 +1,14 @@
+.simpleBtn {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #479756;
+  background-color: transparent;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #000;
+  cursor: pointer;
+}
+
+.simpleBtn:hover {
+  border-color: #357641;
+}

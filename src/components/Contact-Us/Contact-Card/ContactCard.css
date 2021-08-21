@@ -1,0 +1,62 @@
+.contact__card {
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.contact-text__area {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 0;
+}
+
+.contact-text__area h1 {
+  text-transform: capitalize;
+  user-select: none;
+}
+
+.contact-text__rows {
+  margin-top: 1.6rem;
+  display: flex;
+  align-items: center;
+  flex-basis: 40%;
+}
+
+.social__links {
+  margin-top: 2rem;
+}
+
+.fa-phone-alt,
+.fa-envelope,
+.fa-map-marker-alt {
+  color: #68b180;
+  font-size: 1.2rem;
+}
+
+.fa-facebook-square,
+.fa-twitter,
+.fa-instagram,
+.fa-youtube-square {
+  color: #68b180;
+  padding-left: 12px;
+  font-size: 2rem;
+}
+
+.contact-text__rows p {
+  margin-left: 10px;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  user-select: none;
+  cursor: pointer;
+}
+
+.contact-text__rows p:hover {
+  color: #68b180;
+}
+
+.contact__form {
+  flex-basis: 55%;
+  margin-top: 2rem;
+}
